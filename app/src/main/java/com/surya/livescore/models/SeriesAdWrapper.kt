@@ -1,5 +1,8 @@
 package com.surya.livescore.models
 
+import com.google.gson.annotations.SerializedName
+
 data class SeriesAdWrapper(
-val seriesMatches:List<SeriesMatch>
+    @SerializedName("seriesMatches")
+    val seriesMatches: List<SeriesMatch>
 )

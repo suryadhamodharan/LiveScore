@@ -1,6 +1,10 @@
 package com.surya.livescore.models
 
-data class Typematch (
-val matchType: String,
-val seriesAdWrappers: List<SeriesAdWrapper>,
-        )
+import com.google.gson.annotations.SerializedName
+
+data class Typematch(
+    @SerializedName("matchType")
+    val matchType: String,
+    @SerializedName("seriesAdWrapper")
+    val seriesAdWrappers: List<SeriesAdWrapper>,
+)
