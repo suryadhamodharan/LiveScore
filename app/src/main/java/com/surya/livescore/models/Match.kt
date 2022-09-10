@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 data class Match(
     @SerializedName("matchInfo")
-    val matchInfo: Matchinfo,
+    val matchInfo: MatchInfo?,
     @SerializedName("matchScore")
-    val matchScore: MatchScore,
+    val matchScore: MatchScore?
 )

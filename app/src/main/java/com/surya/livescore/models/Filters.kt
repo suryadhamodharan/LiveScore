@@ -4,5 +4,5 @@ import com.google.gson.annotations.SerializedName
 
 data class Filters(
     @SerializedName("matchType")
-    val matchType:List<String>,
+    val matchType: List<String?>?
 )
