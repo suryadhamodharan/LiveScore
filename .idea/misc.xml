@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/LiveScore/app/src/main/res/layout/activity_main.xml" value="0.24895833333333334" />
+        <entry key="..\:/Android/LiveScore/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android/LiveScore/app/src/main/res/layout/match_list_item.xml" value="0.24895833333333334" />
         <entry key="..\:/Android/LiveScore/app/src/main/res/layout/matchlist.xml" value="0.24895833333333334" />
       </map>
     </option>
